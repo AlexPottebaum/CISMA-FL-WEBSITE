@@ -1,0 +1,131 @@
+/* TEXT STYLES */
+h1 {
+    font-family: 'Noto Serif', serif;
+    color: #feab79;
+    font-weight: 900;
+    font-size: 32pt;
+}
+h2 {
+    font-family: 'Noto Serif', serif;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 18pt;
+}
+h3 {
+    font-family: 'Noto Serif', serif;
+    color: #0E0E0C;
+    font-weight: 900;
+    font-size: 32pt;
+}
+p {
+    font-family: 'Noto Serif', serif;
+    color: #000002;
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+f1 {
+    font-family: 'Noto Serif', serif;
+    color: white;
+    font-weight: 700;
+    font-size: 16pt;
+}
+f2 {
+    font-family: 'Noto Serif', serif;
+    color:white;
+    font-weight: 700;
+    font-size: 12pt;
+}
+f3 {
+    font-family: 'Noto Serif', serif;
+    color:white;
+    font-weight: 500;
+    font-size: 10pt;
+}
+f4 {
+    font-family: 'Noto Serif', serif;
+    color:white;
+    font-weight: 500;
+    font-size: 10pt;
+    text-decoration: underline;
+}
+
+
+
+/*BUTTON STYLES*/
+button {
+    padding: 15px;
+    padding-bottom: 20px;;
+    color: #ffffff;
+    background-color: #318162;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Noto Serif', serif;
+    font-variant-caps: all-small-caps;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+
+/*HEADER & NAV BAR STYLES*/
+.logo img{
+    height: 100px;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+
+/*HERO SECTION STYLE*/
+.hero {
+    display: grid;
+}
+.herophoto, .left{
+    grid-column: 1;
+    grid-row: 1;
+}
+.herophoto img{
+    background-repeat: no-repeat;
+    width:100%;
+    height: auto;
+    background-size: contain;
+}
+.left {
+    width: 800px;
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-color: rgba(55,55,48, 0.5);
+    padding: 20px;
+    padding-left: 30px;
+    padding-bottom: 90px;
+}
+
+
+/*CARDS MENU*/
+
+
+
+
+/*APP CALL TO ACTION*/
+
+
+/*FOOTER SECTION*/
+.footer {
+    background-color: #0E0E0C;
+    display: grid;
+    margin: 0px;
+    padding-top: 50px;
+    padding-left: 0px;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+}
+.copywright {
+    background-color: #0E0E0C;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
